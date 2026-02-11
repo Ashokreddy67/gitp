@@ -27,5 +27,31 @@ Branch Rename (master → main)
 git branch -M main
 git push -u origin main
 
+////////////////////////////////////////////////////////////////////////////////////////////////
+Correct Order (If GitHub Repo Already Exists)
+Step 1 — Initialize
+git init
+
+Step 2 — Add remote
+git remote add origin https://github.com/Ashokreddy67/newgit.git
+
+Step 3 — Create / Rename branch to main
+git branch -M main
+
+Step 4 — Pull first (IMPORTANT if GitHub has README)
+git pull origin main --allow-unrelated-histories
+
+Step 5 — Add files
+git add .
+
+Step 6 — Commit
+git commit -m "gitms"
+
+Step 7 — Push and set upstream
+git push -u origin main
 
 
+After this, you can simply use:
+
+git push
+git pull

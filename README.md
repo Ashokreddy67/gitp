@@ -1,2 +1,1 @@
-# gitp
 for practice
