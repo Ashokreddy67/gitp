@@ -1,0 +1,31 @@
+1.Starting New Project (First Time Setup)
+cd path/to/project
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Ashokreddy67/gitp.git
+git push -u origin main
+
+2.Clone Existing Project (From GitHub)
+cd path/where/you/want/project
+git clone https://github.com/Ashokreddy67/gitp.git
+cd gitp
+
+
+3.Daily Work Flow (Most Important)nnnn
+git pull
+# make changes
+git add .
+git commit -m "your message"
+git push
+
+4: If You Changed  Something On GitHub Website
+git pull
+
+Branch Rename (master → main)
+git branch -M main
+git push -u origin main
+
+
+
